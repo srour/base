@@ -1,0 +1,43 @@
+
+{
+  "name": "ubervoice",
+  "version": "0.1.0",
+  "author": "Ben Srour",
+  "description": "Get an uber with your voice on Amazon Echo",
+  "private": true,
+  "scripts": {
+    "start": "node uber.js"
+  },
+  "engines": {
+    "node": "*",
+    "npm":"*"
+  },
+  "dependencies": {
+    "express": "*",
+    "async": "*",
+    "request": "*",
+    "colors":"*",
+    "express-logger":"*",
+    "ejs":"*",
+    "grunt": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-asciify": "*",
+    "body-parser":"*"
+  },
+  "gitHead": "db27d75dc4dd04056a2871cd2c8f09859bad5b62",
+  "readmeFilename": "README.md",
+  "main": "uber.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srour/ubervoice.git"
+  },
+  "keywords": [
+    "uber",
+    "speech recognition",
+    "amazon echo"
+  ],
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/srour/ubervoice/issues"
+  }
+}
